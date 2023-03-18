@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "550049954641",
+    "firebase_url": "https://be-inspired-5b003-default-rtdb.firebaseio.com",
+    "project_id": "be-inspired-5b003",
+    "storage_bucket": "be-inspired-5b003.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550049954641:android:b46d29d3258fa61e4f7170",
+        "android_client_info": {
+          "package_name": "com.merry.jane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550049954641-pntgnojuo3t81bl6qa00513ngahc3hjk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqU6Wz-trHZgPj9FDpvD-bd8ov-ts2qes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550049954641-pntgnojuo3t81bl6qa00513ngahc3hjk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

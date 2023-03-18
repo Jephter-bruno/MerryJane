@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryDark">#9C27B0</color>
+    <color name="colorAccent">#9C27B0</color>
+    <color name="text_light_blue">#FF00</color>
+
+    <color name="colorPrimary1">#9C27B0</color>
+
+    <color name="colorPrimaryDark1">#9C27B0</color>
+    <color name="button_color">#2C323C</color>
+
+    <color name="colorAccent1">#9C27B0</color>
+    <color name="gold">#9C27B0</color>
+
+</resources>

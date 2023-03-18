@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="20dp"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    tools:context=".YoutubeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bees" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="-50dp"
+            android:gravity="center_vertical"
+            android:src="@drawable/bee" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:src="@drawable/king"
+            android:layout_height="100dp"/>
+        <com.denzcoskun.imageslider.ImageSlider
+            android:visibility="gone"
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            app:iss_auto_cycle="true"
+            app:iss_delay="0"
+            app:iss_period="10000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Hello, my name is Apostle Merry Jane King your personal inspirational speaker and mindset mentor. I’m married to my amazing husband Apostle Derrick King. I’m a mother of 6 amazing children." />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" I was born in a small town called Dawson Ga which helped in molding my change of mindset and my views. It was in this small town that I grew up in a small church surrounded by love and learning about Christ which led me to later develop a deeper understanding and realize that I needed a relationship with Christ and not just to know of him. My purpose is to help you fulfill the will of God for your life by helping you overcome any obstacles that may try to stand in your way. I’m here to help you get past YOU one push at a time."/>
+<TextView
+    android:textColor="@color/colorAccent"
+    android:layout_gravity="end"
+    android:layout_width="wrap_content"
+    android:text="Merry Jane King"
+    android:layout_height="wrap_content"/>
+
+</LinearLayout>
